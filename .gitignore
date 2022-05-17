@@ -10,7 +10,7 @@
 # Ignore local environment variables
 /.env
 
-/config/settings.php
+/power_settings.php
 
 # Ignore local Docker overrides
 /docker-compose.override.yml

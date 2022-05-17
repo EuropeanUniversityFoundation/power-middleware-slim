@@ -16,7 +16,7 @@ final class PowerMiddlewareGetAction {
         Client $http_client
     )
     {
-        require __DIR__ . '/../../../config/power_settings.php';
+        require __DIR__ . '/../../../power_settings.php';
         $this->http_client = $http_client;
         $this->power_settings = $power_settings;
     }
