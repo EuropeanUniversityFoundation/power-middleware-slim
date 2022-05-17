@@ -1,0 +1,1719 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "course",
+            "id": "b1f641e1-bacf-419e-9f40-56af9edf0626",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Basic HTML",
+                        "lang": "en"
+                    }
+                ],
+                "code": "HTML01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "1/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/b1f641e1-bacf-419e-9f40-56af9edf0626"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "907d8466-a489-407d-908d-fe8f69e1e76a",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Basic CSS",
+                        "lang": "en"
+                    }
+                ],
+                "code": "CSS01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "1/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/907d8466-a489-407d-908d-fe8f69e1e76a"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "16aa949c-bcce-4bd9-93b8-6ccf4bafa09b",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Basic JavaScript",
+                        "lang": "en"
+                    }
+                ],
+                "code": "JS01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/16aa949c-bcce-4bd9-93b8-6ccf4bafa09b"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "e7e8f4d9-6738-4d86-9cf7-913acdf883d7",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Dev Tools I",
+                        "lang": "en"
+                    }
+                ],
+                "code": "TOOLS01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0611",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "1/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/e7e8f4d9-6738-4d86-9cf7-913acdf883d7"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "cba693e6-8174-41de-bedf-7fd32673e9f6",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Web Servers",
+                        "lang": "en"
+                    }
+                ],
+                "code": "SRV01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "1/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/cba693e6-8174-41de-bedf-7fd32673e9f6"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "331b1e6e-dd98-495b-949c-176e4124e6bf",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Advanced HTML",
+                        "lang": "en"
+                    }
+                ],
+                "code": "HTML02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "1/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/331b1e6e-dd98-495b-949c-176e4124e6bf"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "11fd5c41-ee4f-41d3-93cd-66d24f09c4b5",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Advanced CSS",
+                        "lang": "en"
+                    }
+                ],
+                "code": "CSS02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "1/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/11fd5c41-ee4f-41d3-93cd-66d24f09c4b5"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "b57012ef-43c4-4c7a-bfcf-5801ac999767",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Intermediate JavaScript",
+                        "lang": "en"
+                    }
+                ],
+                "code": "JS02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/b57012ef-43c4-4c7a-bfcf-5801ac999767"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "bb494e12-dfdf-4d00-bdd6-59bc4eb35e75",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Dev Tools II",
+                        "lang": "en"
+                    }
+                ],
+                "code": "TOOLS02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0611",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "1/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/bb494e12-dfdf-4d00-bdd6-59bc4eb35e75"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "cc4d9e96-5e29-408b-aeee-30967938b91c",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Basic jQuery",
+                        "lang": "en"
+                    }
+                ],
+                "code": "JQRY01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/cc4d9e96-5e29-408b-aeee-30967938b91c"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "0df81bd6-3abd-4e50-b4a7-b1ba9ee406ea",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Advanced JavaScript I",
+                        "lang": "en"
+                    }
+                ],
+                "code": "JS03",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/0df81bd6-3abd-4e50-b4a7-b1ba9ee406ea"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "b4385ed7-e241-48ec-82a6-fbb31d330835",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Advanced jQuery",
+                        "lang": "en"
+                    }
+                ],
+                "code": "JQRY02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/b4385ed7-e241-48ec-82a6-fbb31d330835"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "1ed8bd09-e6a5-43a0-8508-bff564b8aa43",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Node.js and NPM",
+                        "lang": "en"
+                    }
+                ],
+                "code": "NODE01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/1ed8bd09-e6a5-43a0-8508-bff564b8aa43"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "c78b20ed-fa18-4400-b8cd-cca0a7805ad2",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "CSS Frameworks",
+                        "lang": "en"
+                    }
+                ],
+                "code": "CSSFW01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "2/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/c78b20ed-fa18-4400-b8cd-cca0a7805ad2"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "756331eb-d9d7-4eea-a78c-7019096b2ebb",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "UI Design Principles",
+                        "lang": "en"
+                    }
+                ],
+                "code": "DESIGN01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/756331eb-d9d7-4eea-a78c-7019096b2ebb"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "c3c4ffe6-0a54-4264-8010-5cd84eeb13af",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Advanced JavaScript II",
+                        "lang": "en"
+                    }
+                ],
+                "code": "JS04",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/c3c4ffe6-0a54-4264-8010-5cd84eeb13af"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "a9af316f-8f9d-4644-87b6-fd5322a0fe48",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Node.js applications",
+                        "lang": "en"
+                    }
+                ],
+                "code": "NODE02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/a9af316f-8f9d-4644-87b6-fd5322a0fe48"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "83737e0a-5def-46ee-875e-44ac20a005af",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Build tools",
+                        "lang": "en"
+                    }
+                ],
+                "code": "BUILD01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/83737e0a-5def-46ee-875e-44ac20a005af"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "d94ca083-cc34-456d-99de-f2d850f8ce52",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Docker",
+                        "lang": "en"
+                    }
+                ],
+                "code": "DOCKER",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "2/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/d94ca083-cc34-456d-99de-f2d850f8ce52"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "0260c7cb-c344-4fcf-86a1-fb6e8105a870",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Design Software",
+                        "lang": "en"
+                    }
+                ],
+                "code": "DESIGN02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0611",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/0260c7cb-c344-4fcf-86a1-fb6e8105a870"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "3b3dc479-07d9-46ee-801e-de956aab717d",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "REST APIs",
+                        "lang": "en"
+                    }
+                ],
+                "code": "API01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "3/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/3b3dc479-07d9-46ee-801e-de956aab717d"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "fecc12f9-8da9-4aa1-838d-a130dc5e0cbe",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "React",
+                        "lang": "en"
+                    }
+                ],
+                "code": "REACT01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/fecc12f9-8da9-4aa1-838d-a130dc5e0cbe"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "09a02b6e-cffb-4c9b-8271-ae0f71eaf5ff",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Databases (NoSQL)",
+                        "lang": "en"
+                    }
+                ],
+                "code": "DOCDB01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "3/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/09a02b6e-cffb-4c9b-8271-ae0f71eaf5ff"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "7996bc25-26c7-42e8-9c3e-1cac91037698",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Testing",
+                        "lang": "en"
+                    }
+                ],
+                "code": "TEST01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "3/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/7996bc25-26c7-42e8-9c3e-1cac91037698"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "2a39829b-7f7d-4e8f-92ec-34e2f33fbdd0",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Topics in HTTP",
+                        "lang": "en"
+                    }
+                ],
+                "code": "HTTP01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "3/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/2a39829b-7f7d-4e8f-92ec-34e2f33fbdd0"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "55023722-ac74-46b7-86ff-590233481e1a",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "GraphQL",
+                        "lang": "en"
+                    }
+                ],
+                "code": "GRAPH",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/55023722-ac74-46b7-86ff-590233481e1a"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "3d78179b-becd-47e0-bd2a-baa5ab0ce6da",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "React Hooks",
+                        "lang": "en"
+                    }
+                ],
+                "code": "REACT02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/3d78179b-becd-47e0-bd2a-baa5ab0ce6da"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "02c6bb5f-5cfb-4c67-bdcc-7b1737dcd155",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "PWAs",
+                        "lang": "en"
+                    }
+                ],
+                "code": "PWA",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/02c6bb5f-5cfb-4c67-bdcc-7b1737dcd155"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "6cc3427d-7774-48d3-8b5b-2c3c84045a0d",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Automated testing",
+                        "lang": "en"
+                    }
+                ],
+                "code": "TEST02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "3/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/6cc3427d-7774-48d3-8b5b-2c3c84045a0d"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "cc969ab2-69d5-44b1-8881-9572d2ce51e8",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Deployment",
+                        "lang": "en"
+                    }
+                ],
+                "code": "SRV02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "global": {
+                    "eqfLevel": 6,
+                    "year": "3/3"
+                },
+                "programme": [
+                    {
+                        "programmeId": "a35a973c-bc6c-4087-a25b-e1e4888c030d",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    },
+                    {
+                        "programmeId": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/course/cc969ab2-69d5-44b1-8881-9572d2ce51e8"
+                }
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/programme/a35a973c-bc6c-4087-a25b-e1e4888c030d/course"
+        }
+    }
+}

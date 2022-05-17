@@ -1,0 +1,44 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "ounit",
+        "id": "edc6c68b-7614-4ed4-85e6-d7ff8c0dbad5",
+        "links": {
+            "self": {
+                "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/edc6c68b-7614-4ed4-85e6-d7ff8c0dbad5"
+            }
+        },
+        "attributes": {
+            "title": [
+                {
+                    "string": "Department of Economics, Management, Industrial Engineering and Tourism",
+                    "lang": "en"
+                }
+            ],
+            "abbreviation": "DEGEIT",
+            "ounitId": "edc6c68b-7614-4ed4-85e6-d7ff8c0dbad5",
+            "ounitCode": "degeit.ua.pt",
+            "url": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/edc6c68b-7614-4ed4-85e6-d7ff8c0dbad5"
+        },
+        "programme": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/edc6c68b-7614-4ed4-85e6-d7ff8c0dbad5/programme"
+        },
+        "course": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/edc6c68b-7614-4ed4-85e6-d7ff8c0dbad5/course"
+        }
+    }
+}

@@ -1,0 +1,1683 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "course",
+            "id": "767fb78e-5b73-4523-8c9e-dfc107016e22",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "HTML I",
+                        "lang": "en"
+                    }
+                ],
+                "code": "HTML01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/767fb78e-5b73-4523-8c9e-dfc107016e22"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "4099b247-0781-452a-8981-feb2dac9c008",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "CSS I",
+                        "lang": "en"
+                    }
+                ],
+                "code": "CSS01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/4099b247-0781-452a-8981-feb2dac9c008"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "3a713ea6-4cdb-4a1c-acbe-17842195629e",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Intro to Drupal",
+                        "lang": "en"
+                    }
+                ],
+                "code": "DRUPL01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/3a713ea6-4cdb-4a1c-acbe-17842195629e"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "1eaf4430-0fa1-4840-935b-6384be823eb7",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Tooling I",
+                        "lang": "en"
+                    }
+                ],
+                "code": "TOOLS01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0611",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/1eaf4430-0fa1-4840-935b-6384be823eb7"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "b1f88cd7-f216-4b43-9be6-978d36806806",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Server basics",
+                        "lang": "en"
+                    }
+                ],
+                "code": "SRV01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/b1f88cd7-f216-4b43-9be6-978d36806806"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "8dafb204-47c2-4a96-bfd5-7a2c8876f2f0",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "HTML II",
+                        "lang": "en"
+                    }
+                ],
+                "code": "HTML02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/8dafb204-47c2-4a96-bfd5-7a2c8876f2f0"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "b2e631c3-8834-4933-9375-40f619c844ec",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "CSS II",
+                        "lang": "en"
+                    }
+                ],
+                "code": "CSS02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/b2e631c3-8834-4933-9375-40f619c844ec"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "ef1e23d9-fac6-4a1a-9c6e-e5aec7a38599",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Drupal architecture",
+                        "lang": "en"
+                    }
+                ],
+                "code": "DRUPL02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/ef1e23d9-fac6-4a1a-9c6e-e5aec7a38599"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "14eb7405-9e07-4fdc-a007-e29eff23f2a5",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Tooling II",
+                        "lang": "en"
+                    }
+                ],
+                "code": "TOOLS02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0611",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/14eb7405-9e07-4fdc-a007-e29eff23f2a5"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "635622cc-1bba-4588-b775-33092a5fc978",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Virtualization",
+                        "lang": "en"
+                    }
+                ],
+                "code": "VIRT",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": false
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/635622cc-1bba-4588-b775-33092a5fc978"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "a87a6ed2-3db4-4d18-88f0-cb2917a75ef3",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Docker",
+                        "lang": "en"
+                    }
+                ],
+                "code": "DOCKER",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": false
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/a87a6ed2-3db4-4d18-88f0-cb2917a75ef3"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "c4f92374-dd7c-47e1-b75b-4d59b9244692",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Linux containers",
+                        "lang": "en"
+                    }
+                ],
+                "code": "LXD",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": true,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "1/3",
+                        "mandatoryCourse": false
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/c4f92374-dd7c-47e1-b75b-4d59b9244692"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "66b0386b-0d02-48cb-a573-9fd3e88ab4cd",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Intro to Composer",
+                        "lang": "en"
+                    }
+                ],
+                "code": "COMP01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/66b0386b-0d02-48cb-a573-9fd3e88ab4cd"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "e6d49935-7880-471b-ae00-b57efd678154",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Bootstrap framework",
+                        "lang": "en"
+                    }
+                ],
+                "code": "TWBS01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/e6d49935-7880-471b-ae00-b57efd678154"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "94564ce6-323c-41d0-a9c6-2e7dec2d03d0",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "JavaScript I",
+                        "lang": "en"
+                    }
+                ],
+                "code": "JS01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/94564ce6-323c-41d0-a9c6-2e7dec2d03d0"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "ad8fe927-b570-4f57-b931-1fe8b715483e",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "PHP I",
+                        "lang": "en"
+                    }
+                ],
+                "code": "PHP01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/ad8fe927-b570-4f57-b931-1fe8b715483e"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "fa0f63fe-d6ec-464c-b61d-7a229fc33369",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "UX/UI",
+                        "lang": "en"
+                    }
+                ],
+                "code": "UI01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/fa0f63fe-d6ec-464c-b61d-7a229fc33369"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "0081eee3-b9b9-410b-a8a0-9e96dbc2ca52",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Databases I",
+                        "lang": "en"
+                    }
+                ],
+                "code": "SQL01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/0081eee3-b9b9-410b-a8a0-9e96dbc2ca52"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "4823535e-84e2-40b3-b112-6621dda93de1",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "PHP II",
+                        "lang": "en"
+                    }
+                ],
+                "code": "PHP02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/4823535e-84e2-40b3-b112-6621dda93de1"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "31e32664-3f99-4c50-a7c6-8cb38c749b2f",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "JavaScript II",
+                        "lang": "en"
+                    }
+                ],
+                "code": "JS02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/31e32664-3f99-4c50-a7c6-8cb38c749b2f"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "57495144-46f4-4b77-b725-ae01ecbbc00a",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Drupal theming I",
+                        "lang": "en"
+                    }
+                ],
+                "code": "THEME01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/57495144-46f4-4b77-b725-ae01ecbbc00a"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "ca18066b-a0f6-4800-8f14-6d5d0016227d",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Templating languages",
+                        "lang": "en"
+                    }
+                ],
+                "code": "TPL01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "2/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/ca18066b-a0f6-4800-8f14-6d5d0016227d"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "582d5128-4fa0-4737-beda-0ebb970eed53",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Decoupled Drupal I",
+                        "lang": "en"
+                    }
+                ],
+                "code": "DCPL01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/582d5128-4fa0-4737-beda-0ebb970eed53"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "253670b1-028a-40dd-b4a0-86868d21e332",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Databases II",
+                        "lang": "en"
+                    }
+                ],
+                "code": "SQL02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/253670b1-028a-40dd-b4a0-86868d21e332"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "fce93348-0516-4b37-96f1-18b10c02287b",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Custom modules",
+                        "lang": "en"
+                    }
+                ],
+                "code": "PHP03",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/fce93348-0516-4b37-96f1-18b10c02287b"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "b87386f4-7a90-4093-b931-9ef0291ccf81",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "PHPUnit",
+                        "lang": "en"
+                    }
+                ],
+                "code": "TEST01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/b87386f4-7a90-4093-b931-9ef0291ccf81"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "8ecfec75-fd65-491c-89e0-47abf3968a31",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "HTTP Fundamentals",
+                        "lang": "en"
+                    }
+                ],
+                "code": "HTTP01",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/8ecfec75-fd65-491c-89e0-47abf3968a31"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "15257100-fbf9-47f1-ba43-1483a6f1da4a",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Decoupled Drupal II",
+                        "lang": "en"
+                    }
+                ],
+                "code": "DCPL02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/15257100-fbf9-47f1-ba43-1483a6f1da4a"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "91803a36-8fd6-414a-b6bf-4b75d31c7f27",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Drupal theming II",
+                        "lang": "en"
+                    }
+                ],
+                "code": "THEME02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/91803a36-8fd6-414a-b6bf-4b75d31c7f27"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "b6b6a88b-79f5-4595-a21c-ab6257177437",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "PHP libraries",
+                        "lang": "en"
+                    }
+                ],
+                "code": "DRUPL03",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/b6b6a88b-79f5-4595-a21c-ab6257177437"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "117f8bec-d344-4c6c-98c9-3b49e236dfd8",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Caching",
+                        "lang": "en"
+                    }
+                ],
+                "code": "CACHE",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0613",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/117f8bec-d344-4c6c-98c9-3b49e236dfd8"
+                }
+            }
+        },
+        {
+            "type": "course",
+            "id": "33315205-d79d-4741-b063-ba8026cd2a83",
+            "attributes": {
+                "title": [
+                    {
+                        "string": "DevOps",
+                        "lang": "en"
+                    }
+                ],
+                "code": "SRV02",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": 6.0,
+                "languageOfInstruction": "en",
+                "iscedCode": "0612",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "unavailableForIncomingMobility": false,
+                "url": [
+                    {
+                        "uri": "https://example.com",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+                        "year": "3/3",
+                        "mandatoryCourse": true
+                    }
+                ]
+            },
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course/33315205-d79d-4741-b063-ba8026cd2a83"
+                }
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course"
+        }
+    }
+}

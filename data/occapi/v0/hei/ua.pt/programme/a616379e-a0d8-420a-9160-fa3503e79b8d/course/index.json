@@ -1,0 +1,1478 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": [
+        {
+            "type": "course",
+            "id": "e51d44b0-5f84-455c-b5bc-65269a84375f",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/e51d44b0-5f84-455c-b5bc-65269a84375f"
+                }
+            },
+            "attributes": {
+                "label": "Nanomaterials and Nanostructures",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "42131",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": true
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "0f9bbca8-b927-415d-84d5-ef7ec3b2834c",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/0f9bbca8-b927-415d-84d5-ef7ec3b2834c"
+                }
+            },
+            "attributes": {
+                "label": "Sensors and Actuators",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "41015",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": true
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "c93d75af-d423-4e44-bc22-7459357f0ed3",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/c93d75af-d423-4e44-bc22-7459357f0ed3"
+                }
+            },
+            "attributes": {
+                "label": "Optoelectronics",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "42132",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": true
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "c78b5768-bb7b-42b7-b11a-87df471ac669",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/c78b5768-bb7b-42b7-b11a-87df471ac669"
+                }
+            },
+            "attributes": {
+                "label": "Technique of Structure Characterization",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "42133",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": true
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "5ccd279d-6879-471d-bad7-06e05539941b",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/5ccd279d-6879-471d-bad7-06e05539941b"
+                }
+            },
+            "attributes": {
+                "label": "3d Conception and Modelling",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "41264",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0715",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "9de632eb-b4af-40ad-96ee-bec7454a8b18",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/9de632eb-b4af-40ad-96ee-bec7454a8b18"
+                }
+            },
+            "attributes": {
+                "label": "Advanced Quantum Mechanics",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "40980",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "a6e35f40-883d-4c19-a9c7-a2957df64153",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/a6e35f40-883d-4c19-a9c7-a2957df64153"
+                }
+            },
+            "attributes": {
+                "label": "Computational Optics",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "40777",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "29352751-f1fe-429b-8ee5-fd3e5d3d1a0e",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/29352751-f1fe-429b-8ee5-fd3e5d3d1a0e"
+                }
+            },
+            "attributes": {
+                "label": "Operations Research Methods",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "47691",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0541",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "7c57d24b-6c8c-4292-a57f-c7b8d9b3bb49",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/7c57d24b-6c8c-4292-a57f-c7b8d9b3bb49"
+                }
+            },
+            "attributes": {
+                "label": "Development of Functional Materials",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "42093",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": true
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "a73bb6a2-415e-48da-b85d-86c07aa77b99",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/a73bb6a2-415e-48da-b85d-86c07aa77b99"
+                }
+            },
+            "attributes": {
+                "label": "Photonics",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "42094",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": true
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "4bc79ab9-3a43-4ba4-a5ab-9e498e38a9ce",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/4bc79ab9-3a43-4ba4-a5ab-9e498e38a9ce"
+                }
+            },
+            "attributes": {
+                "label": "Spectroscopic Techniques",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "42107",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": true
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "6c116307-3b9f-4d9c-ada6-6dfb778d45e4",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/6c116307-3b9f-4d9c-ada6-6dfb778d45e4"
+                }
+            },
+            "attributes": {
+                "label": "Analysis and Simulation of Quantum Systems",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "40778",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "c85ae634-9887-40f2-a443-75b660d0c8c6",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/c85ae634-9887-40f2-a443-75b660d0c8c6"
+                }
+            },
+            "attributes": {
+                "label": "Cryptography And Security",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "47516",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0541",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "2e32c122-e5f7-4648-8278-4c82f0238d6d",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/2e32c122-e5f7-4648-8278-4c82f0238d6d"
+                }
+            },
+            "attributes": {
+                "label": "Digital Electronics",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "41405",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0714",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "06ab2056-5c38-40c3-a883-1cc19c4623ec",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/06ab2056-5c38-40c3-a883-1cc19c4623ec"
+                }
+            },
+            "attributes": {
+                "label": "Industrial Vision And Perception Systems",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "47810",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0714",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "6c44f0a3-f3cc-462f-ade5-171e9b0a2418",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/6c44f0a3-f3cc-462f-ade5-171e9b0a2418"
+                }
+            },
+            "attributes": {
+                "label": "Innovation And Technology Management",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "47613",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0413",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "285830fb-dc6c-4fd7-a108-9201ee21d018",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/285830fb-dc6c-4fd7-a108-9201ee21d018"
+                }
+            },
+            "attributes": {
+                "label": "Low Dimensional Systems",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "42125",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "d24044a9-0aee-4126-b0d6-0e1e366b82af",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/d24044a9-0aee-4126-b0d6-0e1e366b82af"
+                }
+            },
+            "attributes": {
+                "label": "Medical Physics",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "41842",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "f66327d5-c0d0-44d8-8122-5e9a61bc3ed7",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/f66327d5-c0d0-44d8-8122-5e9a61bc3ed7"
+                }
+            },
+            "attributes": {
+                "label": "Nanodevices And Nanomagnetism",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "47713",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "87424b7e-a5b5-4ad4-be07-f4eff90382f0",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/87424b7e-a5b5-4ad4-be07-f4eff90382f0"
+                }
+            },
+            "attributes": {
+                "label": "Physics and Technology of Polymers",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "42135",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "cfd0bc94-7e85-4b80-90d9-edf807bd691e",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/cfd0bc94-7e85-4b80-90d9-edf807bd691e"
+                }
+            },
+            "attributes": {
+                "label": "Physics and Technology of Renewable Energies",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "47939",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "4e9aa09d-506d-43e3-86ce-2fec04abf371",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/4e9aa09d-506d-43e3-86ce-2fec04abf371"
+                }
+            },
+            "attributes": {
+                "label": "Quantum Optics",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "47723",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "2/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "1/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "1e356e13-0b83-4edb-941e-2c2932adc748",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/1e356e13-0b83-4edb-941e-2c2932adc748"
+                }
+            },
+            "attributes": {
+                "label": "Experimental Physics of Particles and Astroparticles",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "40981",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "2/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "80d4ab5b-51c8-4406-ab95-f9e21f3e22bd",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/80d4ab5b-51c8-4406-ab95-f9e21f3e22bd"
+                }
+            },
+            "attributes": {
+                "label": "Medical Physics Instrumentation",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "43210",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "2/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "e495b38d-ceac-4e60-a9af-cf7297e9173d",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/e495b38d-ceac-4e60-a9af-cf7297e9173d"
+                }
+            },
+            "attributes": {
+                "label": "Multivariant Statistics",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "47573",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0541",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "2/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "abbf54f7-3c05-4260-b733-2279d8417c9c",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/abbf54f7-3c05-4260-b733-2279d8417c9c"
+                }
+            },
+            "attributes": {
+                "label": "Nanochemistry",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "45913",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0531",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "2/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "1396ffe4-e902-42d3-9ebc-fc060bc5740f",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/1396ffe4-e902-42d3-9ebc-fc060bc5740f"
+                }
+            },
+            "attributes": {
+                "label": "Optic Communications",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "41594",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0714",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "2/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "06b9b62a-7e18-4ed8-9616-5f9742f05d3a",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/06b9b62a-7e18-4ed8-9616-5f9742f05d3a"
+                }
+            },
+            "attributes": {
+                "label": "Project Management and Evaluation",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "47475",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0413",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "2/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "469c0acc-b7a5-46d6-82b1-181046be5f06",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/469c0acc-b7a5-46d6-82b1-181046be5f06"
+                }
+            },
+            "attributes": {
+                "label": "Quantum Technologies",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "40670",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0533",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "2/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "course",
+            "id": "ed477b85-f8ec-472f-a6f8-0f4f6fc76a21",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/ed477b85-f8ec-472f-a6f8-0f4f6fc76a21"
+                }
+            },
+            "attributes": {
+                "label": "Rapid Prototyping Techniques",
+                "title": [
+                    {
+                        "string": "Course title in English",
+                        "lang": "en"
+                    }
+                ],
+                "code": "47984",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "learningOutcomes": [
+                    {
+                        "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "academicTerm": "1/2",
+                "ects": "6.0",
+                "languageOfInstruction": "pt-pt",
+                "iscedCode": "0715",
+                "subjectArea": null,
+                "otherCategorization": null,
+                "url": []
+            },
+            "meta": {
+                "programme": [
+                    {
+                        "programmeId": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+                        "year": "2/2",
+                        "mandatoryCourse": false
+                    }
+                ]
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/programme/a616379e-a0d8-420a-9160-fa3503e79b8d/course"
+        }
+    },
+    "included": [
+        {
+            "type": "programme",
+            "id": "a616379e-a0d8-420a-9160-fa3503e79b8d",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/programme/a616379e-a0d8-420a-9160-fa3503e79b8d"
+                }
+            },
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Master in Engineering Physics",
+                        "lang": "en"
+                    },
+                    {
+                        "string": "Mestrado em Engenharia Física",
+                        "lang": "pt"
+                    }
+                ],
+                "code": "497",
+                "description": [
+                    {
+                        "multiline": "This is the description of the Degree Programme.\r\nThis is a long text field.",
+                        "lang": "en"
+                    }
+                ],
+                "ects": "120.0",
+                "eqfLevelProvided": "7",
+                "iscedCode": "0533",
+                "length": 2,
+                "languageOfInstruction": "pt-pt",
+                "url": [
+                    {
+                        "uri": "https://www.ua.pt/pt/curso/497",
+                        "title": null,
+                        "options": [],
+                        "lang": "pt"
+                    },
+                    {
+                        "uri": "https://www.ua.pt/en/course/497",
+                        "title": null,
+                        "options": [],
+                        "lang": "en"
+                    }
+                ]
+            }
+        }
+    ]
+}

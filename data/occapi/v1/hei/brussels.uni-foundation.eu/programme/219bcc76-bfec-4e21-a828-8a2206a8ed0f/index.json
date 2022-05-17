@@ -1,0 +1,55 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "programme",
+        "id": "219bcc76-bfec-4e21-a828-8a2206a8ed0f",
+        "attributes": {
+            "title": [
+                {
+                    "string": "Full stack Drupal development",
+                    "lang": "en"
+                }
+            ],
+            "code": "DRUPAL",
+            "description": [
+                {
+                    "multiline": "This is the description of the Degree Programme.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "ects": 180,
+            "eqfLevelProvided": 6,
+            "iscedCode": "0613",
+            "languageOfInstruction": "en",
+            "length": 3,
+            "url": [
+                {
+                    "uri": "https://example.com",
+                    "lang": "en"
+                }
+            ]
+        },
+        "links": {
+            "self": {
+                "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/programme/219bcc76-bfec-4e21-a828-8a2206a8ed0f"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/programme/219bcc76-bfec-4e21-a828-8a2206a8ed0f"
+        },
+        "course": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/programme/219bcc76-bfec-4e21-a828-8a2206a8ed0f/course"
+        }
+    }
+}

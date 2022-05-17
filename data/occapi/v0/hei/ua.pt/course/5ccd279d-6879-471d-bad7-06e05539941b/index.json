@@ -1,0 +1,130 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "course",
+        "id": "5ccd279d-6879-471d-bad7-06e05539941b",
+        "links": {
+            "self": {
+                "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/5ccd279d-6879-471d-bad7-06e05539941b"
+            }
+        },
+        "attributes": {
+            "label": "3d Conception and Modelling",
+            "title": [
+                {
+                    "string": "Course title in English",
+                    "lang": "en"
+                }
+            ],
+            "code": "41264",
+            "description": [
+                {
+                    "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "learningOutcomes": [
+                {
+                    "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "academicTerm": "1/2",
+            "ects": "6.0",
+            "languageOfInstruction": "pt-pt",
+            "iscedCode": "0715",
+            "subjectArea": null,
+            "otherCategorization": null,
+            "url": [],
+            "bibliography": [
+                {
+                    "multiline": "This is the base and recommended bibliography of the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "courseContent": [
+                {
+                    "multiline": "This is the content of the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "prerequisites": [
+                {
+                    "multiline": "These are the generic prerequisites of the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "courseAvailability": [
+                {
+                    "multiline": "This indicates whether the Course is subject to additional participation requirements (e.g. limited number of places, laboratory courses, etc.)\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "teachingMethod": [
+                {
+                    "multiline": "This is the teaching method used in the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "assessmentMethod": [
+                {
+                    "multiline": "This is the assessment method used in the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ]
+        },
+        "relationships": {
+            "ounit": {
+                "data": {
+                    "type": "ounit",
+                    "id": "0a3ddba8-817b-4c33-a30f-d31c359ece7a"
+                },
+                "links": {
+                    "related": {
+                        "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/0a3ddba8-817b-4c33-a30f-d31c359ece7a"
+                    }
+                }
+            },
+            "prerequisiteCourse": {
+                "data": []
+            }
+        }
+    },
+    "included": [
+        {
+            "type": "ounit",
+            "id": "0a3ddba8-817b-4c33-a30f-d31c359ece7a",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/0a3ddba8-817b-4c33-a30f-d31c359ece7a"
+                }
+            },
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Department of Mechanical Engineering",
+                        "lang": "en"
+                    }
+                ],
+                "abbreviation": "DEM",
+                "ounitId": "0a3ddba8-817b-4c33-a30f-d31c359ece7a",
+                "ounitCode": "dem.ua.pt",
+                "url": []
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/5ccd279d-6879-471d-bad7-06e05539941b"
+        }
+    }
+}

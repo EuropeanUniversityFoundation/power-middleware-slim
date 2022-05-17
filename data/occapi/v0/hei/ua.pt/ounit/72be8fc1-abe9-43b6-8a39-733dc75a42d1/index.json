@@ -1,0 +1,48 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "ounit",
+        "id": "72be8fc1-abe9-43b6-8a39-733dc75a42d1",
+        "links": {
+            "self": {
+                "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/72be8fc1-abe9-43b6-8a39-733dc75a42d1"
+            }
+        },
+        "attributes": {
+            "title": [
+                {
+                    "string": "Physics Department",
+                    "lang": "en"
+                },
+                {
+                    "string": "Departamento de Física",
+                    "lang": ""
+                }
+            ],
+            "abbreviation": "DFIS",
+            "ounitId": "72be8fc1-abe9-43b6-8a39-733dc75a42d1",
+            "ounitCode": "dfis.ua.pt",
+            "url": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/72be8fc1-abe9-43b6-8a39-733dc75a42d1"
+        },
+        "programme": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/72be8fc1-abe9-43b6-8a39-733dc75a42d1/programme"
+        },
+        "course": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/72be8fc1-abe9-43b6-8a39-733dc75a42d1/course"
+        }
+    }
+}

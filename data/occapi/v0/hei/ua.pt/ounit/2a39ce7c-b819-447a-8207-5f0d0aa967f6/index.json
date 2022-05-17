@@ -1,0 +1,44 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "ounit",
+        "id": "2a39ce7c-b819-447a-8207-5f0d0aa967f6",
+        "links": {
+            "self": {
+                "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/2a39ce7c-b819-447a-8207-5f0d0aa967f6"
+            }
+        },
+        "attributes": {
+            "title": [
+                {
+                    "string": "Chemistry Department",
+                    "lang": "en"
+                }
+            ],
+            "abbreviation": null,
+            "ounitId": "2a39ce7c-b819-447a-8207-5f0d0aa967f6",
+            "ounitCode": "dq.ua.pt",
+            "url": []
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/2a39ce7c-b819-447a-8207-5f0d0aa967f6"
+        },
+        "programme": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/2a39ce7c-b819-447a-8207-5f0d0aa967f6/programme"
+        },
+        "course": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/2a39ce7c-b819-447a-8207-5f0d0aa967f6/course"
+        }
+    }
+}

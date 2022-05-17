@@ -1,0 +1,67 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "programme",
+        "id": "63f9f0e4-ef29-4bcf-a49e-67a0e1e4beca",
+        "links": {
+            "self": {
+                "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/programme/63f9f0e4-ef29-4bcf-a49e-67a0e1e4beca"
+            }
+        },
+        "attributes": {
+            "title": [
+                {
+                    "string": "1st cycle degree in Engineering Physics",
+                    "lang": "en"
+                },
+                {
+                    "string": "Licenciatura em Engenharia Física",
+                    "lang": "pt"
+                }
+            ],
+            "code": "485",
+            "description": [
+                {
+                    "multiline": "This is the description of the Degree Programme.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "ects": "180.0",
+            "eqfLevelProvided": "6",
+            "iscedCode": "0533",
+            "length": 3,
+            "languageOfInstruction": "pt-pt",
+            "url": [
+                {
+                    "uri": "https://www.ua.pt/en/course/485",
+                    "title": null,
+                    "options": [],
+                    "lang": "en"
+                },
+                {
+                    "uri": "https://www.ua.pt/pt/curso/485",
+                    "title": null,
+                    "options": [],
+                    "lang": "pt"
+                }
+            ]
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/72be8fc1-abe9-43b6-8a39-733dc75a42d1/programme/63f9f0e4-ef29-4bcf-a49e-67a0e1e4beca"
+        },
+        "course": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/programme/63f9f0e4-ef29-4bcf-a49e-67a0e1e4beca/course"
+        }
+    }
+}

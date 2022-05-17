@@ -1,0 +1,55 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "programme",
+        "id": "cf94f093-d544-4c02-8e61-1efafd7985fa",
+        "attributes": {
+            "title": [
+                {
+                    "string": "Back end web development",
+                    "lang": "en"
+                }
+            ],
+            "code": "BACKEND",
+            "description": [
+                {
+                    "multiline": "This is the description of the Degree Programme.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "ects": 180,
+            "eqfLevelProvided": 6,
+            "iscedCode": "0613",
+            "languageOfInstruction": "en",
+            "length": 3,
+            "url": [
+                {
+                    "uri": "https://example.com",
+                    "lang": "en"
+                }
+            ]
+        },
+        "links": {
+            "self": {
+                "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/programme/cf94f093-d544-4c02-8e61-1efafd7985fa"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/programme/cf94f093-d544-4c02-8e61-1efafd7985fa"
+        },
+        "course": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/budapest.uni-foundation.eu/programme/cf94f093-d544-4c02-8e61-1efafd7985fa/course"
+        }
+    }
+}

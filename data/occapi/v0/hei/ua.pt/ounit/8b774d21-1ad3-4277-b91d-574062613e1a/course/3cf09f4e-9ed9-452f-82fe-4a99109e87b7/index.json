@@ -1,0 +1,96 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "course",
+        "id": "3cf09f4e-9ed9-452f-82fe-4a99109e87b7",
+        "links": {
+            "self": {
+                "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/3cf09f4e-9ed9-452f-82fe-4a99109e87b7"
+            }
+        },
+        "attributes": {
+            "label": "Artifical Intelligence",
+            "title": [
+                {
+                    "string": "Course title in English",
+                    "lang": "en"
+                }
+            ],
+            "code": "40846",
+            "description": [
+                {
+                    "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "learningOutcomes": [
+                {
+                    "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "academicTerm": "1/2",
+            "ects": "6.0",
+            "languageOfInstruction": "pt-pt",
+            "iscedCode": "0613",
+            "subjectArea": null,
+            "otherCategorization": null,
+            "url": [],
+            "bibliography": [
+                {
+                    "multiline": "This is the base and recommended bibliography of the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "courseContent": [
+                {
+                    "multiline": "This is the content of the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "prerequisites": [
+                {
+                    "multiline": "These are the generic prerequisites of the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "courseAvailability": [
+                {
+                    "multiline": "This indicates whether the Course is subject to additional participation requirements (e.g. limited number of places, laboratory courses, etc.)\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "teachingMethod": [
+                {
+                    "multiline": "This is the teaching method used in the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "assessmentMethod": [
+                {
+                    "multiline": "This is the assessment method used in the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ]
+        },
+        "relationships": {
+            "prerequisiteCourse": {
+                "data": []
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/8b774d21-1ad3-4277-b91d-574062613e1a/course/3cf09f4e-9ed9-452f-82fe-4a99109e87b7"
+        }
+    }
+}

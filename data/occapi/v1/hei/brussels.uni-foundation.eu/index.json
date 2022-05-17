@@ -1,0 +1,48 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "hei",
+        "id": "c3dd9e4e-9eef-47c8-889d-d0017f8d3425",
+        "attributes": {
+            "title": [
+                {
+                    "string": "European University Foundation - Brussels office",
+                    "lang": "en"
+                }
+            ],
+            "abbreviation": "EUF",
+            "heiId": "brussels.uni-foundation.eu",
+            "url": [
+                {
+                    "uri": "https://uni-foundation.eu/",
+                    "lang": "en"
+                }
+            ]
+        },
+        "links": {
+            "self": {
+                "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu"
+            }
+        }
+    },
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu"
+        },
+        "programme": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/programme"
+        },
+        "course": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/v1/hei/brussels.uni-foundation.eu/course"
+        }
+    }
+}

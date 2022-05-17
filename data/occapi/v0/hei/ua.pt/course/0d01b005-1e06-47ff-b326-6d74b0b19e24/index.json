@@ -1,0 +1,130 @@
+{
+    "jsonapi": {
+        "version": "1.0",
+        "meta": {
+            "links": {
+                "self": {
+                    "href": "http://jsonapi.org/format/1.0/"
+                }
+            }
+        }
+    },
+    "data": {
+        "type": "course",
+        "id": "0d01b005-1e06-47ff-b326-6d74b0b19e24",
+        "links": {
+            "self": {
+                "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/0d01b005-1e06-47ff-b326-6d74b0b19e24"
+            }
+        },
+        "attributes": {
+            "label": "Signals and Electronic Systems",
+            "title": [
+                {
+                    "string": "Course title in English",
+                    "lang": "en"
+                }
+            ],
+            "code": "41945",
+            "description": [
+                {
+                    "multiline": "This is the description of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "learningOutcomes": [
+                {
+                    "multiline": "These are the Learning Outcomes of the Course.\r\nThis is a required field.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "academicTerm": "2/2",
+            "ects": "6.0",
+            "languageOfInstruction": "pt-pt",
+            "iscedCode": "0714",
+            "subjectArea": null,
+            "otherCategorization": null,
+            "url": [],
+            "bibliography": [
+                {
+                    "multiline": "This is the base and recommended bibliography of the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "courseContent": [
+                {
+                    "multiline": "This is the content of the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "prerequisites": [
+                {
+                    "multiline": "These are the generic prerequisites of the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "courseAvailability": [
+                {
+                    "multiline": "This indicates whether the Course is subject to additional participation requirements (e.g. limited number of places, laboratory courses, etc.)\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "teachingMethod": [
+                {
+                    "multiline": "This is the teaching method used in the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ],
+            "assessmentMethod": [
+                {
+                    "multiline": "This is the assessment method used in the Course.\r\nThis is a long text field.",
+                    "lang": "en"
+                }
+            ]
+        },
+        "relationships": {
+            "ounit": {
+                "data": {
+                    "type": "ounit",
+                    "id": "8b774d21-1ad3-4277-b91d-574062613e1a"
+                },
+                "links": {
+                    "related": {
+                        "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/8b774d21-1ad3-4277-b91d-574062613e1a"
+                    }
+                }
+            },
+            "prerequisiteCourse": {
+                "data": []
+            }
+        }
+    },
+    "included": [
+        {
+            "type": "ounit",
+            "id": "8b774d21-1ad3-4277-b91d-574062613e1a",
+            "links": {
+                "self": {
+                    "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/ounit/8b774d21-1ad3-4277-b91d-574062613e1a"
+                }
+            },
+            "attributes": {
+                "title": [
+                    {
+                        "string": "Department of Electronics, Telecommunications, and Informatics",
+                        "lang": "en"
+                    }
+                ],
+                "abbreviation": null,
+                "ounitId": "8b774d21-1ad3-4277-b91d-574062613e1a",
+                "ounitCode": "deti.ua.pt",
+                "url": []
+            }
+        }
+    ],
+    "links": {
+        "self": {
+            "href": "https://slim.dev.uni-foundation.eu/occapi/hei/ua.pt/course/0d01b005-1e06-47ff-b326-6d74b0b19e24"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+# Ignore common local files
+.idea/
+.vscode/
+/coverage/
+/vendor/
+/logs/*
+!/logs/README.md
+.phpunit.result.cache
+
+# Ignore local environment variables
+/.env
+
+/config/settings.php
+
+# Ignore local Docker overrides
+/docker-compose.override.yml
