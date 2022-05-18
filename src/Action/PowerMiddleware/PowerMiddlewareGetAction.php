@@ -27,8 +27,9 @@ final class PowerMiddlewareGetAction {
         array $args
     ): ResponseInterface {        
         $subpath = $args['subpath'];
-        $uri = $this->power_settings['base_url'] . $subpath;
-
+        $id = key_exists('id', $args) ? $args['id'] : false;
+        $uri = $id ? $this->power_settings['base_url'] . $subpath . '/' . $id : $this->power_settings['base_url'] . $subpath;        
+        
         $response = $this->http_client->request(
             $request->getMethod(),
             $uri,
