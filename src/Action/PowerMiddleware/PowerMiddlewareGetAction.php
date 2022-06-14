@@ -25,8 +25,7 @@ final class PowerMiddlewareGetAction {
         ResponseInterface $response,        
         array $args
     ): ResponseInterface {        
-        $subpath = $args['subpath'];
-        $subpath = '/rest/' . $subpath;
+        $subpath = $args['subpath'];        
         $id = key_exists('id', $args) ? $args['id'] : false;
         $uri = $id ? $subpath . '/' . $id : $subpath;
         $client = new Client([
