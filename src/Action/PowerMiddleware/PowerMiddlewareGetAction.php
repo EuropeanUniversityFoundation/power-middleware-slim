@@ -28,7 +28,9 @@ final class PowerMiddlewareGetAction {
     ): ResponseInterface {        
         $subpath = $args['subpath'];
         $id = key_exists('id', $args) ? $args['id'] : false;
-        $uri = $id ? $this->power_settings['base_url'] . $subpath . '/' . $id : $this->power_settings['base_url'] . $subpath;        
+        $uri = $id ? $this->power_settings['base_url'] . $subpath . '/' . $id : $this->power_settings['base_url'] . $subpath;
+        $headers = $request->getHeaders();
+        die(var_dump($headers));
         
         $response = $this->http_client->request(
             $request->getMethod(),
@@ -36,10 +38,37 @@ final class PowerMiddlewareGetAction {
                 [
                     'headers' =>
                     [
-                        'api-key' => $this->power_settings['api_key'],
+                        $headers,
+                        'api-key' => $this->power_settings['api_key'],                        
                     ]
                 ]
             );
+        die($response->getContentLength());
+
+
+
+// $curl = curl_init();
+
+// curl_setopt_array($curl, array(
+//   CURLOPT_URL => 'https://power.uni-foundation.eu/rest/institution-pos',
+//   CURLOPT_RETURNTRANSFER => true,
+//   CURLOPT_ENCODING => '',
+//   CURLOPT_MAXREDIRS => 10,
+//   CURLOPT_TIMEOUT => 0,
+//   CURLOPT_FOLLOWLOCATION => true,
+//   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+//   CURLOPT_CUSTOMREQUEST => 'GET',
+//   CURLOPT_HTTPHEADER => array(
+//     'api-key: 4b70912c65a52e5c602fb4120c2db349'
+//   ),
+// ));
+
+// $response = curl_exec($curl);
+
+// curl_close($curl);
+//echo $response;
+
+        //die(var_dump($response));
 
         return $response;
     }
