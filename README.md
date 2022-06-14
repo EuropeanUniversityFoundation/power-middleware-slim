@@ -11,7 +11,7 @@ The whole project consists of the following applications:
 1. [POWER platform](https://power.uni-foundation.eu): Company representatives can post and Institution representatives can review placement opportunities on this site. This site stores the job offer and user data and provides the API, that exposes accepted placement opportunities to Institutions through the middleware below.
 2. [POWER React App](https://github.com/EuropeanUniversityFoundation/power_react_app): The application, that Institutions can include into their websites. This application connects to the middleware, which handles authentication
 3. POWER middleware: EUF provides two middleware solutions in the POWER project.
-  - [NodeJS based middleware](https://github.com/EuropeanUniversityFoundation/power-middleware): If you'd like to use a middleware solution developed on NodeJS instead of PHP, visit [this project](https://github.com/EuropeanUniversityFoundation/power-middleware)
+  - [NodeJS based middleware](https://github.com/EuropeanUniversityFoundation/power-middleware): If you'd like to use a middleware solution developed in NodeJS instead, visit [this project](https://github.com/EuropeanUniversityFoundation/power-middleware)
   - PHP Slim based middleware: This is the repository you're currently viewing.
 
 ## Connections and communication between applications
