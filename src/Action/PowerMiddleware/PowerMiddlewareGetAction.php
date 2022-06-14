@@ -30,20 +30,30 @@ final class PowerMiddlewareGetAction {
         $id = key_exists('id', $args) ? $args['id'] : false;
         $uri = $id ? $this->power_settings['base_url'] . $subpath . '/' . $id : $this->power_settings['base_url'] . $subpath;
         $headers = $request->getHeaders();
-        die(var_dump($headers));
+        $headers['api-key'][] = $this->power_settings['api_key'];
+        //die(var_dump($headers));
+        $client = new Client(['base_uri' => $this->power_settings['base_url']]);
+
+        $response = $client->get('/rest/public-pos/', [
+            'headers' => [
+                'api-key' => $this->power_settings['api_key']
+            ]
+        ]
+        );
+        //die(var_dump($request));
         
-        $response = $this->http_client->request(
-            $request->getMethod(),
-            $uri,
-                [
-                    'headers' =>
-                    [
-                        $headers,
-                        'api-key' => $this->power_settings['api_key'],                        
-                    ]
-                ]
-            );
-        die($response->getContentLength());
+        // $response = $this->http_client->request(
+        //     $request->getMethod(),
+        //     $uri,
+        //     $headers,
+        //         [
+        //             'headers' => [
+        //                 'api-key' => $this->power_settings['api_key'],                        
+        //             ]
+                    
+        //         ]
+        //     );
+        //die($response->getContentLength());
 
 
 
