@@ -32,14 +32,18 @@ final class PowerMiddlewareGetAction {
         $headers = $request->getHeaders();
         $headers['api-key'][] = $this->power_settings['api_key'];
         //die(var_dump($headers));
-        $client = new Client(['base_uri' => $this->power_settings['base_url']]);
+        $client = new Client([
+            'base_uri' => $this->power_settings['base_url'],
+            'version' => 1.0]);
 
         $response = $client->get('/rest/public-pos/', [
             'headers' => [
                 'api-key' => $this->power_settings['api_key']
+                ]
             ]
-        ]
         );
+
+        //var_dump($response->getHeaderLine('transfer-encoding'));
         //die(var_dump($request));
         
         // $response = $this->http_client->request(
