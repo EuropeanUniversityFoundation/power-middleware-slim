@@ -36,7 +36,7 @@ final class PowerMiddlewareGetAction {
             'base_uri' => $this->power_settings['base_url'],
             'version' => 1.0]);
 
-        $response = $client->get('/rest/public-pos/', [
+        $response = $client->get('/rest/institution-pos/', [
             'headers' => [
                 'api-key' => $this->power_settings['api_key']
                 ]
