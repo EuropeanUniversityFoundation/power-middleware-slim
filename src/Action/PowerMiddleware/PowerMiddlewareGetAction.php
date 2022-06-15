@@ -16,8 +16,7 @@ final class PowerMiddlewareGetAction {
         Client $http_client
     )
     {
-        require __DIR__ . '/../../../power_settings.php';
-        $this->http_client = $http_client;
+        require __DIR__ . '/../../../power_settings.php';        
         $this->power_settings = $power_settings;
     }
     
@@ -27,19 +26,19 @@ final class PowerMiddlewareGetAction {
         array $args
     ): ResponseInterface {        
         $subpath = $args['subpath'];
+        $subpath = '/rest/' . $subpath;
         $id = key_exists('id', $args) ? $args['id'] : false;
-        $uri = $id ? $this->power_settings['base_url'] . $subpath . '/' . $id : $this->power_settings['base_url'] . $subpath;        
-        
-        $response = $this->http_client->request(
-            $request->getMethod(),
-            $uri,
-                [
-                    'headers' =>
-                    [
-                        'api-key' => $this->power_settings['api_key'],
-                    ]
+        $uri = $id ? $subpath . '/' . $id : $subpath;
+        $client = new Client([
+            'base_uri' => $this->power_settings['base_url'],
+            'version' => 1.0]);
+
+        $response = $client->get($uri, [
+            'headers' => [
+                'api-key' => $this->power_settings['api_key']
                 ]
-            );
+            ]
+        );
 
         return $response;
     }
