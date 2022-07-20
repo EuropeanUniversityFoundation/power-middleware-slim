@@ -19,6 +19,10 @@ The whole project consists of the following applications:
 - POWER middleware (3) is deployed on an Institution server reachable by the one that hosts the Institution's website. It authenticates the requests sent by the React App and forwards them to the POWER platform's (1) API.
 - The POWER platform stores and exposes placement opportunity data to the middleware and through it, to the REACT App, that is shown on the University websites.
 
+## Preparation
+
+Go to the POWER platform and check the 'How to start using the POWER platform' chapter on the help page if you haven't already done so.
+
 ## System requirements
 
 This POWER middleware solution is based on Slim PHP. According to the [official documentation](https://www.slimframework.com/docs/v4/start/installation.html), system requirements are:
@@ -26,10 +30,26 @@ This POWER middleware solution is based on Slim PHP. According to the [official 
 - PHP 7.4 or newer
 
 In order to leverage this repository:
-- Composer 2 must be installed on your server. See the [official composer documentation](https://getcomposer.org/download/) on how to install it.
+- Git must be installed on the server.
+- Composer 2 must be present on your server. See the [official composer documentation](https://getcomposer.org/download/) on how to install it.
 
 ## Deployment
-git clone 
+`git clone [this repository]`
+
+`composer install`
+
+Duplicate the `power_settings.example.php` file in the project root with the name `power_settings.php` and edit it's content.
+
+Insert the API key you've received from us to the [Enter your API key here] below:
+```
+<?php
+
+$power_settings = [
+  'api_key' => '[Enter your API key here]',
+  'base_url' => 'https://power.uni-foundation.eu',
+];
+```
+
 
 ## Stack
 
