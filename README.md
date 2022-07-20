@@ -52,7 +52,7 @@ $power_settings = [
 If you don't have an API key, check the 'How to start using the POWER platform' on the [POWER platform site](https://power.uni-foundation.eu/help) and follow the instructions there.
 
 ## Testing
-To test if the deployment was succesful, send a get request to `http(s)://[domain you installed to]/power-middleware/rest/public-pos`
+To test if the deployment was succesful, send a GET request to `http(s)://[domain you installed to]/power-middleware/rest/public-pos`, where you should see placement opportunity data in JSON format.
 
 ## Stack
 Built with [Slim - a micro framework for PHP](https://www.slimframework.com/).
