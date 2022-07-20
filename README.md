@@ -34,27 +34,25 @@ In order to leverage this repository:
 - Composer 2 must be present on your server. See the [official composer documentation](https://getcomposer.org/download/) on how to install it.
 
 ## Deployment
-`git clone [this repository]`
+`git clone git@github.com:EuropeanUniversityFoundation/power-middleware-slim.git`
 
 `composer install`
 
 Duplicate the `power_settings.example.php` file in the project root with the name `power_settings.php` and edit it's content.
 
-Insert the API key you've received from us to the [Enter your API key here] below:
+Insert the API key you received from us, between the quotes:
 ```
 <?php
-
 $power_settings = [
   'api_key' => '[Enter your API key here]',
   'base_url' => 'https://power.uni-foundation.eu',
 ];
 ```
 
+If you don't have an API key, check the 'How to start using the POWER platform' on the [POWER platform site](https://power.uni-foundation.eu/help) and follow the instructions there.
+
+## Testing
+To test if the deployment was succesful, send a get request to `http(s)://[domain you installed to]/power-middleware/rest/public-pos`
 
 ## Stack
-
 Built with [Slim - a micro framework for PHP](https://www.slimframework.com/).
-
-## Structure
-
-Based on [this tutorial](https://odan.github.io/2019/11/05/slim4-tutorial.html).
