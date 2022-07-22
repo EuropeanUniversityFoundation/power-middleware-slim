@@ -29,15 +29,17 @@ This POWER middleware solution is based on Slim PHP. According to the [official 
 - Web server with URL rewriting (Apache or Nginx recommended)
 - PHP 7.4 or newer
 
+_Note:_ You do not have to perform the steps detailed in the official installation guide.
+
 In order to leverage this repository:
 - Git must be installed on the server.
 - Composer 2 must be present on your server. See the [official composer documentation](https://getcomposer.org/download/) on how to install it.
 
 ## Deployment
 
-1. Create a domain / subdomain for the middleware.
+1. Create a domain / subdomain for the middleware on the hosting server.
 
-2. Create a site in your webserver, that has PHP and URL rewriting installed and is accessible by the website that includes the POWER React app.
+2. Create a site in your webserver (Apache or Nginx) on the hosting server, that has PHP 7.4+ and URL rewriting installed and is accessible by the website that contains the POWER React app.
 
 3. Enter the root directory of the site and clone the repository there: `git clone git@github.com:EuropeanUniversityFoundation/power-middleware-slim.git`
 
@@ -62,7 +64,4 @@ If you don't have an API key, check the 'How to start using the POWER platform' 
 To test if the deployment was succesful, send a GET request to `http(s)://[domain you installed to]/power-middleware/rest/public-pos`, where you should see placement opportunity data in JSON format.
 
 ## Further steps
-Once you're done with this middleware, you can start to deploy and setting up the [POWER React Application](https://github.com/EuropeanUniversityFoundation/power_react_app)
-
-## Stack
-Built with [Slim - a micro framework for PHP](https://www.slimframework.com/).
+Once you're done with this deployment, you can start to deploy and setting up the [POWER React Application](https://github.com/EuropeanUniversityFoundation/power_react_app)
