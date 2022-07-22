@@ -35,15 +35,17 @@ In order to leverage this repository:
 
 ## Deployment
 
-Create a domain / subdomain for the middleware.
+1. Create a domain / subdomain for the middleware.
 
-Create a site in your webserver, that has PHP and URL rewriting installed and is accessible by the website that includes the POWER React app.
+2. Create a site in your webserver, that has PHP and URL rewriting installed and is accessible by the website that includes the POWER React app.
 
-Enter the root directory of the site and clone the repository there: `git clone git@github.com:EuropeanUniversityFoundation/power-middleware-slim.git`
+3. Enter the root directory of the site and clone the repository there: `git clone git@github.com:EuropeanUniversityFoundation/power-middleware-slim.git`
 
-Run `composer install` to install the dependencies of this repository.
+4. Run `composer install` to install the dependencies of this repository.
 
-Duplicate the `power_settings.example.php` file in the project root with the name `power_settings.php` and edit it's content.
+5. Set the document root (the home directory served by the site) to the `./public` directory.
+
+6. Duplicate the `power_settings.example.php` file in the project root with the name `power_settings.php` and edit it's content.
 
 Insert the API key you received from us, between the quotes:
 ```
