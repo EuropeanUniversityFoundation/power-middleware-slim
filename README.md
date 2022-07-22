@@ -45,7 +45,7 @@ In order to leverage this repository:
 
 5. Set the document root (the home directory served by the site) to the `./public` directory.
 
-6. Duplicate the `power_settings.example.php` file in the project root with the name `power_settings.php` and edit it's content.
+6. Duplicate the `power_settings.example.php` file with the name `power_settings.php` and edit it's content.
 
 7. Insert the API key you received from us, between the quotes:
 ```
