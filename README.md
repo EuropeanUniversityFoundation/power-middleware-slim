@@ -34,9 +34,14 @@ In order to leverage this repository:
 - Composer 2 must be present on your server. See the [official composer documentation](https://getcomposer.org/download/) on how to install it.
 
 ## Deployment
-`git clone git@github.com:EuropeanUniversityFoundation/power-middleware-slim.git`
 
-`composer install`
+Create a domain / subdomain for the middleware.
+
+Create a site in your webserver, that has PHP and URL rewriting installed and is accessible by the website that includes the POWER React app.
+
+Enter the root directory of the site and clone the repository there: `git clone git@github.com:EuropeanUniversityFoundation/power-middleware-slim.git`
+
+Run `composer install` to install the dependencies of this repository.
 
 Duplicate the `power_settings.example.php` file in the project root with the name `power_settings.php` and edit it's content.
 
