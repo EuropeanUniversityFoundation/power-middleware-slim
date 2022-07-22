@@ -47,7 +47,7 @@ In order to leverage this repository:
 
 6. Duplicate the `power_settings.example.php` file in the project root with the name `power_settings.php` and edit it's content.
 
-Insert the API key you received from us, between the quotes:
+7. Insert the API key you received from us, between the quotes:
 ```
 <?php
 $power_settings = [
