@@ -16,7 +16,7 @@ The whole project consists of the following applications:
 
 ## Connections and communication between applications
 - POWER React App (2) is included into a University website. Code is to be hosted by the Institutions. The REACT App (2) sends requests to the POWER middleware.
-- POWER middleware (3) is deployed on an Institution server reachable by the one that hosts the Institution's website. It authenticates the requests sent by the React App and forwards them to the POWER platform's (1) API.
+- POWER middleware (3) is deployed on an Institution server reachable by the one that hosts the Institution's website. It authenticates the requests sent by the React App and forwards them to the POWER platform's (1) API. Incoming requests the middleware should be restricted to the IP address of the university server, where the React app is located.
 - The POWER platform stores and exposes placement opportunity data to the middleware and through it, to the REACT App, that is shown on the University websites.
 
 ## Preparation
