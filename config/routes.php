@@ -1,11 +1,14 @@
 <?php
 
 use Slim\App;
-//use GuzzleHttp\Client;
+use Slim\Views\Twig;
 
 return function (App $app) {
-    $app->get('/', \App\Action\HomeAction::class)->setName('home');    
+    $app->get('/', function ($request, $response, $args) {
+        $view = Twig::fromRequest($request);
+        return $view->render($response, 'index.html');
+    })->setName('root');
 
-    $app->get('/power-middleware/rest/{subpath}[/{id}]', \App\Action\PowerMiddleware\PowerMiddlewareGetAction::class)
+    $app->get('/rest/{subpath}[/{id}]', \App\Action\PowerMiddleware\PowerMiddlewareGetAction::class)
         ->setName('power-middleware');
 };
