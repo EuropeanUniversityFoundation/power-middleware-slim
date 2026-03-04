@@ -27,7 +27,7 @@ Go to the POWER platform and check the 'How to start using the POWER platform' c
 
 This POWER middleware solution is based on Slim PHP. According to the [official documentation](https://www.slimframework.com/docs/v4/start/installation.html), system requirements are:
 - Web server with URL rewriting (Apache or Nginx recommended)
-- PHP 7.4 or newer
+- PHP 8.1 or newer
 
 _Note:_ You do not have to perform the steps detailed in the official installation guide.
 
@@ -39,7 +39,7 @@ In order to leverage this repository:
 
 1. Create a domain / subdomain for the middleware on the hosting server.
 
-2. Create a site in your webserver (Apache or Nginx) on the hosting server, that has PHP 7.4+ and URL rewriting installed and is accessible by the website that contains the POWER React app.
+2. Create a site in your webserver (Apache or Nginx) on the hosting server, that has PHP 8.1+ and URL rewriting installed and is accessible by the website that contains the POWER React app.
 
 3. Enter the root directory of the site and clone the repository there: `git clone git@github.com:EuropeanUniversityFoundation/power-middleware-slim.git`
 
