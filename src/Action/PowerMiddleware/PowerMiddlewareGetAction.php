@@ -11,27 +11,27 @@ final class PowerMiddlewareGetAction {
     private $http_client;
 
     private $power_settings;
-    
+
     public function __construct(
         Client $http_client
     )
     {
-        require __DIR__ . '/../../../power_settings.php';        
+        require __DIR__ . '/../../../power_settings.php';
         $this->power_settings = $power_settings;
     }
-    
+
     public function __invoke(
         ServerRequestInterface $request,
-        ResponseInterface $response,        
+        ResponseInterface $response,
         array $args
-    ): ResponseInterface {        
+    ): ResponseInterface {
         $subpath = $args['subpath'];
         $subpath = '/rest/' . $subpath;
         $id = key_exists('id', $args) ? $args['id'] : false;
         $uri = $id ? $subpath . '/' . $id : $subpath;
         $client = new Client([
             'base_uri' => $this->power_settings['base_url'],
-            'version' => 1.0]);
+            'version' => 1.1]);
 
         $response = $client->get($uri, [
             'headers' => [
